@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/youngtableau.css' | relative_url }}">
+    {%- feed_meta -%}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/quintics/' | relative_url }}">Quintics</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Built with Jekyll, Liquid, and GitHub Pages.
+          <br>
+          &copy;2026 Thomas Brazelton, Steven Karp, Ian Le, Jake Levinson, Stephen McKean, Eveliina Peltola, Frank Sottile, David Speyer</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+# declare columns, their labels, and a type so Liquid knows how to render each
+- key: number
+  label: num
+  type: int
+
+- key: web_pic
+  label: web
+  type: image          # expects { src, alt }
+
+- key: tableau
+  label: tableau
+  type: tableau_string
+
+- key: curve_pic
+  label: curve
+  type: image
+
+- key: curve_closeup
+  label: closeup
+  type: image

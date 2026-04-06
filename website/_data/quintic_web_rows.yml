@@ -1,0 +1,267 @@
+- number: 1
+  web_pic:
+    src: "/assets/img/quintic_pics/01_web.gif"
+  tableau: [[1,2,3],[4,5,8],[6,7,9]]
+  curve_pic:
+    src: "/assets/img/quintic_pics/01_curve.gif"
+
+- number: 2
+  web_pic:
+    src: "/assets/img/quintic_pics/02_web.gif"
+  tableau: [[1,2,4],[3,5,8],[6,7,9]]
+  curve_pic:
+    src: "/assets/img/quintic_pics/02_curve.gif"
+
+- number: 3
+  web_pic:
+    src: "/assets/img/quintic_pics/03_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/03_curve.gif"
+
+- number: 4
+  web_pic:
+    src: "/assets/img/quintic_pics/04_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/04_curve.gif"
+
+- number: 5
+  web_pic:
+    src: "/assets/img/quintic_pics/05_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/05_curve.gif"
+
+- number: 6
+  web_pic:
+    src: "/assets/img/quintic_pics/06_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/06_curve.gif"
+  curve_closeup:
+    src: "/assets/img/quintic_pics/06_curve_close.gif"
+
+- number: 7
+  web_pic:
+    src: "/assets/img/quintic_pics/07_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/07_curve.gif"
+  curve_closeup:
+    src: "/assets/img/quintic_pics/07_curve_close.gif"
+
+- number: 8
+  web_pic:
+    src: "/assets/img/quintic_pics/08_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/08_curve.gif"
+
+- number: 9
+  web_pic:
+    src: "/assets/img/quintic_pics/09_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/09_curve.gif"
+
+- number: 10
+  web_pic:
+    src: "/assets/img/quintic_pics/10_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/10_curve.gif"
+
+- number: 11
+  web_pic:
+    src: "/assets/img/quintic_pics/11_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/11_curve.gif"
+
+- number: 12
+  web_pic:
+    src: "/assets/img/quintic_pics/12_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/12_curve.gif"
+
+- number: 13
+  web_pic:
+    src: "/assets/img/quintic_pics/13_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/13_curve.gif"
+
+- number: 14
+  web_pic:
+    src: "/assets/img/quintic_pics/14_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/14_curve.gif"
+
+- number: 15
+  web_pic:
+    src: "/assets/img/quintic_pics/15_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/15_curve.gif"
+
+- number: 16
+  web_pic:
+    src: "/assets/img/quintic_pics/16_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/16_curve.gif"
+
+- number: 17
+  web_pic:
+    src: "/assets/img/quintic_pics/17_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/17_curve.gif"
+
+- number: 18
+  web_pic:
+    src: "/assets/img/quintic_pics/18_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/18_curve.gif"
+
+- number: 19
+  web_pic:
+    src: "/assets/img/quintic_pics/19_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/19_curve.gif"
+  curve_closeup:
+    src: "/assets/img/quintic_pics/19_curve_close.gif"
+
+- number: 20
+  web_pic:
+    src: "/assets/img/quintic_pics/20_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/20_curve.gif"
+
+- number: 21
+  web_pic:
+    src: "/assets/img/quintic_pics/21_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/21_curve.gif"
+
+- number: 22
+  web_pic:
+    src: "/assets/img/quintic_pics/22_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/22_curve.gif"
+
+- number: 23
+  web_pic:
+    src: "/assets/img/quintic_pics/23_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/23_curve.gif"
+
+- number: 24
+  web_pic:
+    src: "/assets/img/quintic_pics/24_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/24_curve.gif"
+  curve_closeup:
+    src: "/assets/img/quintic_pics/24_curve_close.gif"
+
+- number: 25
+  web_pic:
+    src: "/assets/img/quintic_pics/25_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/25_curve.gif"
+  curve_closeup:
+    src: "/assets/img/quintic_pics/25_curve_close.gif"
+  
+- number: 26
+  web_pic:
+    src: "/assets/img/quintic_pics/26_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/26_curve.gif"
+
+- number: 27
+  web_pic:
+    src: "/assets/img/quintic_pics/27_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/27_curve.gif"
+
+- number: 28
+  web_pic:
+    src: "/assets/img/quintic_pics/28_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/28_curve.gif"
+
+- number: 29
+  web_pic:
+    src: "/assets/img/quintic_pics/29_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/29_curve.gif"
+
+- number: 30
+  web_pic:
+    src: "/assets/img/quintic_pics/30_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/30_curve.gif"
+
+- number: 31
+  web_pic:
+    src: "/assets/img/quintic_pics/31_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/31_curve.gif"
+
+- number: 32
+  web_pic:
+    src: "/assets/img/quintic_pics/32_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/32_curve.gif"
+
+- number: 33
+  web_pic:
+    src: "/assets/img/quintic_pics/33_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/33_curve.gif"
+
+- number: 34
+  web_pic:
+    src: "/assets/img/quintic_pics/34_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/34_curve.gif"
+
+- number: 35
+  web_pic:
+    src: "/assets/img/quintic_pics/35_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/35_curve.gif"
+
+- number: 36
+  web_pic:
+    src: "/assets/img/quintic_pics/36_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/36_curve.gif"
+
+- number: 37
+  web_pic:
+    src: "/assets/img/quintic_pics/37_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/37_curve.gif"
+
+- number: 38
+  web_pic:
+    src: "/assets/img/quintic_pics/38_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/38_curve.gif"
+
+- number: 39
+  web_pic:
+    src: "/assets/img/quintic_pics/39_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/39_curve.gif"
+
+- number: 40
+  web_pic:
+    src: "/assets/img/quintic_pics/40_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/40_curve.gif"
+
+- number: 41
+  web_pic:
+    src: "/assets/img/quintic_pics/41_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/41_curve.gif"
+  curve_closeup:
+    src: "/assets/img/quintic_pics/41_curve_close.gif"
+
+- number: 42
+  web_pic:
+    src: "/assets/img/quintic_pics/42_web.gif"
+  curve_pic:
+    src: "/assets/img/quintic_pics/42_curve.gif"
+  curve_closeup:
+    src: "/assets/img/quintic_pics/42_curve_close.gif"

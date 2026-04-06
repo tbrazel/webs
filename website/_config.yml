@@ -1,0 +1,11 @@
+title: Wronskians and webs
+description: Supplementary code and data for project about Wronskians, webs, and maximally inflected curves.
+url: "https://tbrazel.github.io"
+baseurl: "/webs"
+markdown: kramdown
+remote_theme: "jekyll/minima@1e8a445"
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

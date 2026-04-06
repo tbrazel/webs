@@ -1,0 +1,86 @@
+{%- assign cols = include.columns -%}
+{%- assign rows = include.rows -%}
+
+{%- if include.sort_by -%}
+  {%- assign rows = rows | sort: include.sort_by -%}
+{%- endif -%}
+
+<table class="data-table">
+  <thead>
+    <tr>
+      {%- for col in cols -%}
+        <th scope="col">{{ col.label }}</th>
+      {%- endfor -%}
+    </tr>
+  </thead>
+
+  <tbody>
+    {%- for row in rows -%}
+      <tr>
+        {%- for col in cols -%}
+          {%- assign val = row[col.key] -%}
+          <td>
+            {%- case col.type -%}
+              {%- when "int" -%}
+                {{ val }}
+
+              {%- when "text" -%}
+                {%- if col.format and col.format contains "truncate:" -%}
+                  {%- assign parts = col.format | split: ":" -%}
+                  {%- assign limit = parts[1] | plus: 0 -%}
+                  {{ val | default: "" | truncate: limit }}
+                {%- else -%}
+                  {{ val }}
+                {%- endif -%}
+
+              {%- when "image" -%}
+                {%- if val and val.src -%}
+                  <img src="{{ val.src | relative_url }}" alt="{{ val.alt | default: '' }}" style="height: auto;">
+                {%- endif -%}
+
+              {% when "tableau_string" %}
+                {%- if val -%}
+                {% include youngtableau.html data=val %}
+              {%- endif -%}
+
+
+              {%- when "link" -%}
+                {%- if val and val.href -%}
+                  <a href="{{ val.href }}">{{ val.text | default: val.href }}</a>
+                {%- endif -%}
+
+              {%- when "date" -%}
+                {%- assign raw = val | default: "" -%}
+                {%- if raw != "" -%}
+                  {%- if col.format -%}
+                    {{ raw | date: col.format }}
+                  {%- else -%}
+                    {{ raw | date: "%Y-%m-%d" }}
+                  {%- endif -%}
+                {%- endif -%}
+
+              {%- when "markdown" -%}
+                {%- if val -%}
+                  {{ val | markdownify }}
+                {%- endif -%}
+
+              {%- when "code" -%}
+                {%- if val -%}
+                  <code>{{ val | escape }}</code>
+                {%- endif -%}
+
+              {%- when "codeblock" -%}
+                {%- if val -%}
+                  <pre><code>{{ val | escape }}</code></pre>
+                {%- endif -%}
+
+              {%- else -%}
+                {{ val }}
+            {%- endcase -%}
+          </td>
+        {%- endfor -%}
+      </tr>
+    {%- endfor -%}
+  </tbody>
+</table>
+

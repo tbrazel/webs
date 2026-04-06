@@ -1,0 +1,14 @@
+{% assign s = include.data | strip %}
+{% assign s = s | remove: ' ' | remove: '[[' | remove: ']]' %}
+{% assign rows = s | split: '],[' %}
+
+<table class="youngtableau">
+  {% for row in rows %}
+    {% assign cells = row | split: ',' %}
+    <tr>
+      {% for cell in cells %}
+        <td>{{ cell }}</td>
+      {% endfor %}
+    </tr>
+  {% endfor %}
+</table>

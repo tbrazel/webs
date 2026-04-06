@@ -1,0 +1,11 @@
+.youngtableau {
+  display: inline-table;
+  vertical-align: middle;
+  border-collapse: collapse;
+  margin: 0 0.25em;
+}
+.youngtableau td {
+  padding: 2px 6px;
+  text-align: center;
+  border: 1px solid #999;
+}
